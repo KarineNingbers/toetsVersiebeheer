@@ -1,0 +1,36 @@
+Versiebeheer toets
+2. mkdir toetsVersiebeheer
+cd toetsVersiebeheer
+3. git status
+4. git init
+5. git remote add origin https://github.com/KarineNingbers/toetsVersiebeheer.git
+6. touch index.html
+7. git add index.html
+git commit -m "index pagina toegevoegd"
+vim index.html
+i
+esc :wq
+git add index.html
+git commit -m "citaat toegevoegd"
+8. git branch "zandbak"
+9. git checkout zandbak
+10. git add al.jpg
+vim index.html
+i
+esc :wq
+git add index.html
+git commit -m "foto toegevoegd"
+11. git checkout master
+12. vim index.html
+i
+esc :wq
+git add index.html
+git commit -m "citaat van de dag"
+git rebase master
+13. git checkout zandbak
+git rebase zandbak
+14. git checkout master
+15. git merge zandbak
+16. git add commandos.log
+git commit -m "commandos.log toegevoegd"
+17. git push -u origin master
